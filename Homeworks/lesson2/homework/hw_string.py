@@ -33,9 +33,9 @@ print(len(string1) - count)
 print('eu' in string1)
 
 # Q7
-sentence = str(input("Input sentence: "))
-replace = str(input("Replace: "))
-newWord = str(input("With: "))
+sentence = str(input("Enter sentence: "))
+replace = str(input("Enter word which you want replace: "))
+newWord = str(input("Enter word which you want replace with: "))
 print(sentence.replace(replace, newWord))
 
 # Q8
@@ -73,7 +73,6 @@ character11 = str(input("Enter a character to remove: "))
 print(input14.replace(character11, ""))
 
 # Q17
-
 print("".join("*" if char in vowels else char for char in input14))
 
 # Q18
